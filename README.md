@@ -1,16 +1,69 @@
-# grocery_application
+# Rural Mart – Flutter E-Commerce App
 
-A new Flutter project.
+Rural Mart is a Flutter-based e-commerce application designed to support **local and rural businesses** by providing a digital platform to browse and manage products efficiently.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+##  Features
 
-A few resources to get you started if this is your first Flutter project:
+* User authentication (Login / Signup)
+* Browse products by categories
+* Add to cart functionality
+* Persistent cart using SharedPreferences
+* Clean and responsive UI
+* Simple and smooth navigation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##  Tech Stack
+
+* Flutter
+* Dart
+* Provider (State Management)
+* SharedPreferences (Local Storage)
+
+---
+
+##  Architecture
+
+* MVVM / layered structure (UI, Model, Logic separation)
+* Custom data models for product handling
+* Scalable and maintainable code structure
+
+---
+
+##  Key Highlights
+
+* Implemented state management using Provider
+* Created custom models for structured data handling
+* Managed local persistence using SharedPreferences
+* Built reusable widgets and optimized UI rendering
+
+---
+
+##  Screenshots
+
+<p align="center">
+  <img src="screenshots/carousal.jpeg" width="250"/>
+  <img src="screenshots/loginpage.jpeg" width="250"/>
+  <img src="screenshots/create acc.jpeg" width="250"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/home.jpeg" width="250"/>
+  <img src="screenshots/drawer.jpeg" width="250"/>
+    <img src="screenshots/fav screen.jpeg" width="250"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/products.jpeg" width="250"/>
+  <img src="screenshots/cart.jpeg" width="250"/>
+    <img src="screenshots/pay.jpeg" width="250"/>
+
+</p>
+
+---
+
+## 🔗 GitHub Repository
+
+https://github.com/muneervm/Rural_Mart
